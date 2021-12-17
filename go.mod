@@ -10,14 +10,11 @@ require (
 	github.com/Azure/go-autorest/autorest/adal v0.9.16
 	github.com/Azure/go-autorest/autorest/to v0.4.0
 	github.com/akamai/AkamaiOPEN-edgegrid-golang v1.1.1
-	github.com/alecthomas/assert v0.0.0-20170929043011-405dbfeb8e38 // indirect
-	github.com/alecthomas/colour v0.1.0 // indirect
 	github.com/alecthomas/kingpin v2.2.5+incompatible
-	github.com/alecthomas/repr v0.0.0-20200325044227-4184120f674c // indirect
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.357
 	github.com/aws/aws-sdk-go v1.40.53
 	github.com/bodgit/tsig v0.0.2
-	github.com/cloudflare/cloudflare-go v0.13.2
+	github.com/cloudflare/cloudflare-go v0.28.0
 	github.com/cloudfoundry-community/go-cfclient v0.0.0-20190201205600-f136f9222381
 	github.com/datawire/ambassador v1.6.0
 	github.com/denverdino/aliyungo v0.0.0-20190125010748-a747050bb1ba
@@ -35,13 +32,10 @@ require (
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/linki/instrumented_http v0.3.0
 	github.com/linode/linodego v0.32.2
-	github.com/mattn/go-isatty v0.0.14 // indirect
-	github.com/maxatome/go-testdeep v1.10.1
 	github.com/miekg/dns v1.1.36-0.20210109083720-731b191cabd1
 	github.com/mitchellh/mapstructure v1.4.1 // indirect
 	github.com/nesv/go-dynect v0.6.0
 	github.com/nic-at/rc0go v1.1.1
-	github.com/onsi/gomega v1.14.0 // indirect
 	github.com/openshift/api v0.0.0-20200605231317-fb2a6ca106ae
 	github.com/openshift/client-go v0.0.0-20200608144219-584632b8fc73
 	github.com/oracle/oci-go-sdk v21.4.0+incompatible
@@ -51,7 +45,6 @@ require (
 	github.com/prometheus/client_golang v1.11.0
 	github.com/scaleway/scaleway-sdk-go v1.0.0-beta.7.0.20210127161313-bd30bebeac4f
 	github.com/sirupsen/logrus v1.8.1
-	github.com/smartystreets/gunit v1.3.4 // indirect
 	github.com/stretchr/testify v1.7.0
 	github.com/terra-farm/udnssdk v1.3.5 // indirect
 	github.com/transip/gotransip/v6 v6.6.2
@@ -81,6 +74,4 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-replace (
-	k8s.io/klog => github.com/mikkeloscar/knolog v0.0.0-20190326191552-80742771eb6b
-)
+replace k8s.io/klog => github.com/mikkeloscar/knolog v0.0.0-20190326191552-80742771eb6b
